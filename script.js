@@ -26,91 +26,91 @@ const certificateData = [
   {
     title: "Foundations of Digital Marketing and E-commerce",
     summary: "Foundational certificate in digital marketing and e-commerce concepts.",
-    file: "certificates/foundations-of-digital-marketing-and-e-commerce.pdf",
+    file: "foundations-of-digital-marketing-and-e-commerce.pdf",
     available: true
   },
   {
     title: "Introduction to Python Programming",
     summary: "Certificate focused on Python programming basics and practical coding.",
-    file: "certificates/introduction-to-python-programming.pdf",
+    file: "introduction-to-python-programming.pdf",
     available: true
   },
   {
     title: "Generative AI Prompt Engineering Basics",
     summary: "Certificate covering prompt design fundamentals for generative AI.",
-    file: "certificates/generative-ai-prompt-engineering-basics.pdf",
+    file: "generative-ai-prompt-engineering-basics.pdf",
     available: true
   },
   {
     title: "Ethics in AI",
     summary: "Certificate on responsible AI use, fairness, and ethical considerations.",
-    file: "certificates/ethics-in-ai.pdf",
+    file: "ethics-in-ai.pdf",
     available: true
   },
   {
     title: "Learning How to Learn",
     summary: "Certificate about practical learning methods and mental tools for mastery.",
-    file: "certificates/learning-how-to-learn.pdf",
+    file: "learning-how-to-learn.pdf",
     available: true
   },
   {
     title: "Ask Questions to Make Data-Driven Decisions",
     summary: "Certificate focused on analytical thinking and data-driven questioning.",
-    file: "certificates/ask-questions-to-make-data-driven-decisions.pdf",
+    file: "ask-questions-to-make-data-driven-decisions.pdf",
     available: true
   },
   {
     title: "Foundations of Cybersecurity",
     summary: "Certificate introducing cybersecurity concepts, systems, and risk awareness.",
-    file: "certificates/foundations-of-cybersecurity.pdf",
+    file: "foundations-of-cybersecurity.pdf",
     available: true
   },
   {
     title: "Introduction to Programming with MATLAB",
     summary: "Certificate in programming basics and problem solving using MATLAB.",
-    file: "certificates/introduction-to-programming-with-matlab.pdf",
+    file: "introduction-to-programming-with-matlab.pdf",
     available: true
   },
   {
     title: "Professional Etiquette Skills",
     summary: "Certificate focused on professional communication and workplace etiquette.",
-    file: "certificates/professional-etiquette-skills.pdf",
+    file: "professional-etiquette-skills.pdf",
     available: true
   },
   {
     title: "Build AI Apps with ChatGPT, DALL-E, and GPT-4",
     summary: "Certificate around building AI-powered apps with modern OpenAI tools.",
-    file: "certificates/build-ai-apps-with-chatgpt-dall-e-and-gpt-4.pdf",
+    file: "build-ai-apps-with-chatgpt-dall-e-and-gpt-4.pdf",
     available: true
   },
   {
     title: "Email Etiquette",
     summary: "Certificate on writing clearer and more professional email communication.",
-    file: "certificates/email-etiquette.pdf",
+    file: "email-etiquette.pdf",
     available: true
   },
   {
     title: "Basics of Cisco Networking",
     summary: "Certificate covering networking fundamentals and Cisco basics.",
-    file: "certificates/basics-of-cisco-networking.pdf",
+    file: "basics-of-cisco-networking.pdf",
     available: true
   },
   {
     title: "Foundations: Data, Data, Everywhere",
     summary: "Certificate introducing data concepts, workflows, and data culture.",
-    file: "certificates/foundations-data-data-everywhere.pdf",
+    file: "foundations-data-data-everywhere.pdf",
     available: true
   },
   {
     title: "Coursera Certificate 020TJ3QTOROZ",
     summary: "Verified Coursera completion certificate.",
-    file: "certificates/coursera-020tj3qt0roz.pdf",
+    file: "coursera-020tj3qt0roz.pdf",
     available: true
   },
   {
     title: "AI for Everyone",
     summary: "Certificate covering AI concepts for general understanding and application.",
-    file: "certificates/ai-for-everyone.pdf",
+    file: "ai-for-everyone.pdf",
     available: true
   }
 ];
