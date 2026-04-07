@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Utkarsh Kamble - Passionate Programmer and Tech Learner portfolio website.">
+  <title>Utkarsh Kamble | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <div class="noise-layer" aria-hidden="true"></div>
+  <div class="cursor-system" aria-hidden="true">
+    <div class="cursor-echo" id="cursorEcho"></div>
+    <div class="cursor-aura" id="cursorAura"></div>
+    <div class="cursor-orbit cursor-orbit--1"></div>
+    <div class="cursor-orbit cursor-orbit--2"></div>
+    <div class="cursor-orbit cursor-orbit--3"></div>
+    <div class="cursor-dot" id="cursorDot"></div>
+  </div>
+
+  <header class="site-header">
+    <nav class="navbar shell">
+      <a href="#home" class="brand">
+        <span class="brand__mark">UK</span>
+        <span class="brand__text">Utkarsh Kamble</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-panel" id="navPanel">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Project</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="theme-toggle__label">Dark</span>
+          <span class="theme-toggle__icon">D</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section class="hero reveal" id="home">
+      <div class="hero__lead panel--hero" data-mark="UTKARSH">
+        <p class="eyebrow">Creative developer profile</p>
+        <div class="hero__title-wrap">
+          <p class="hero__kicker">Code. Learn. Build. Repeat.</p>
+          <h1>Utkarsh Kamble</h1>
+        </div>
+        <p class="hero__typing">
+          <span id="typingText"></span>
+          <span class="cursor">|</span>
+        </p>
+        <p class="hero__description">
+          A first-year computer science engineering student who enjoys building projects,
+          exploring software ideas, and learning technologies that turn curiosity into useful products.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#projects">See Project</a>
+          <button class="btn btn--ghost" id="resumeDownload">Download Resume</button>
+        </div>
+        <div class="hero__ticker">
+          <span>BTech Computer Science Engineering</span>
+          <span>Web Development</span>
+          <span>Software Engineering</span>
+          <span>Tech Learner</span>
+        </div>
+      </div>
+
+      <div class="hero__side">
+        <article class="panel--portrait portrait-card portrait-card--orbital">
+          <div class="portrait-card__halo"></div>
+          <div class="portrait-ring portrait-ring--outer"></div>
+          <div class="portrait-ring portrait-ring--middle"></div>
+          <div class="portrait-ring portrait-ring--inner"></div>
+          <div class="portrait-orbit portrait-orbit--one">Web Dev</div>
+          <div class="portrait-orbit portrait-orbit--two">Builder</div>
+          <div class="portrait-orbit portrait-orbit--three">Tech Learner</div>
+          <div class="signal-chip signal-chip--top">1st Year CSE</div>
+          <div class="profile-core">
+            <div class="profile-core__halo"></div>
+            <img
+              class="profile-image"
+              src="assets/profile-image.jpeg"
+              alt="Utkarsh Kamble profile image"
+            >
+          </div>
+          <div class="portrait-card__stamp">Open to internships</div>
+        </article>
+        <article class="hero-note">
+          <p class="hero-note__label">Current focus</p>
+          <p>Learning by making small systems that solve practical student problems.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about reveal" id="about">
+      <article class="section-panel section-panel--wide">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Not just learning syntax. Building a real engineering mindset.</h2>
+        </div>
+        <div class="about-layout">
+          <div class="about-copy">
+            <p>
+              I am a passionate computer science student who enjoys coding, building projects,
+              and learning new technologies. I am especially interested in web development and software engineering,
+              and I love turning ideas into digital experiences that feel useful and thoughtful.
+            </p>
+            <p>
+              My goal is to keep improving through consistent practice, stronger projects,
+              and a portfolio that shows both technical growth and creative problem solving.
+            </p>
+          </div>
+          <div class="about-facts">
+            <div class="fact-tile">
+              <span>Name</span>
+              <strong>Utkarsh Kamble</strong>
+            </div>
+            <div class="fact-tile">
+              <span>Title</span>
+              <strong>Passionate Programmer and Tech Learner</strong>
+            </div>
+            <div class="fact-tile">
+              <span>Education</span>
+              <strong>BTech Computer Science Engineering (1st Year)</strong>
+            </div>
+            <div class="fact-tile">
+              <span>Direction</span>
+              <strong>Web development and software engineering</strong>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="skills reveal" id="skills">
+      <div class="skills__intro">
+        <p class="eyebrow">Skills</p>
+        <h2>Early-stage skill map with visible momentum.</h2>
+      </div>
+      <article class="skill-panel" data-tilt>
+        <div class="skill-panel__header">
+          <p class="skill-panel__eyebrow">Only Card Section</p>
+          <h3>Core Skills</h3>
+          <p>One focused skill card with clean progress tracking and no extra clutter.</p>
+        </div>
+        <div class="skill-panel__list">
+          <div class="skill-line">
+            <div class="skill-line__head">
+              <span>C</span>
+              <strong>30%</strong>
+            </div>
+            <p>Learning structured logic and programming basics.</p>
+            <div class="progress-track">
+              <div class="progress-fill" data-progress="30"></div>
+            </div>
+          </div>
+          <div class="skill-line">
+            <div class="skill-line__head">
+              <span>Python</span>
+              <strong>35%</strong>
+            </div>
+            <p>Exploring scripting, problem solving, and practical coding.</p>
+            <div class="progress-track">
+              <div class="progress-fill" data-progress="35"></div>
+            </div>
+          </div>
+          <div class="skill-line">
+            <div class="skill-line__head">
+              <span>Git and GitHub</span>
+              <strong>25%</strong>
+            </div>
+            <p>Improving project sharing and version control workflow.</p>
+            <div class="progress-track">
+              <div class="progress-fill" data-progress="25"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="projects reveal" id="projects">
+      <article class="project-feature">
+        <div class="project-feature__content">
+          <p class="eyebrow">Featured Project</p>
+          <h2>Campus Transportation Management System</h2>
+          <p class="project-feature__description">
+            A system to manage and optimize campus transportation efficiently, improving route visibility,
+            coordination, and overall transport planning for students and administration.
+          </p>
+          <div class="project-feature__chips">
+            <span>System Thinking</span>
+            <span>Student Utility</span>
+            <span>Efficiency Focus</span>
+          </div>
+        </div>
+        <div class="project-feature__board">
+          <div class="board-node">
+            <strong>01</strong>
+            <span>Track routes</span>
+          </div>
+          <div class="board-node">
+            <strong>02</strong>
+            <span>Manage schedules</span>
+          </div>
+          <div class="board-node">
+            <strong>03</strong>
+            <span>Optimize movement</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="certificates reveal" id="certificates">
+      <div class="section-heading">
+        <p class="eyebrow">Certificates</p>
+        <h2>Certificate Wall</h2>
+      </div>
+      <div class="certificate-grid certificate-grid--pdf" id="certificateGrid"></div>
+    </section>
+
+    <section class="contact reveal" id="contact">
+      <article class="contact-panel">
+        <div class="contact-panel__left">
+          <p class="eyebrow">Contact</p>
+          <h2>Ready for collaborations, learning opportunities, and internships.</h2>
+        </div>
+        <div class="contact-console">
+          <p><span>&gt;</span> email: <a href="mailto:utkarshkamble576@gmail.com">utkarshkamble576@gmail.com</a></p>
+          <p><span>&gt;</span> phone: <a href="tel:+9198342491820">+91 98342491820</a></p>
+          <p><span>&gt;</span> github: <a href="https://github.com/utkarsh-92" target="_blank" rel="noreferrer">github.com/utkarsh-92</a></p>
+          <p><span>&gt;</span> linkedin: <a href="https://www.linkedin.com/in/utkarsh-kamble-861a45375" target="_blank" rel="noreferrer">linkedin.com/in/utkarsh-kamble-861a45375</a></p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <div class="modal" id="imageModal" aria-hidden="true" role="dialog" aria-label="Certificate preview">
+    <button class="modal__close" id="modalClose" aria-label="Close certificate preview">x</button>
+    <div class="modal__content panel">
+      <img id="modalImage" alt="Expanded certificate preview">
+      <p id="modalTitle"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
